@@ -1,0 +1,48 @@
+1. Newton Second Law
+STORE "mass" with value 600
+STORE "acc" with value 2
+STORE "force" without any value
+
+CALCULATE "mass" times "acc"
+SET "force" value with calculation result
+
+DISPLAY "force"
+
+2. Tahun Kabisat
+STORE year with any value
+IF year mod 4 EQUAL TO 0 AND year mod 100 NOT EQUAL TO 0 THEN
+     DISPLAY "Tahun Kabisat"
+ELSE IF year mod 4 EQUAL TO 0 AND year mod 100 EQUAL TO 0 AND year mod 400 EQUAL TO 0 THEN
+     DISPLAY "Tahun Kabisat"
+ELSE
+    DISPLAY "Bukan Tahun Kabisat"
+ENDIF
+
+3. Laundry Day
+SET laundry value to 0
+SET maxLaundry value to 20
+FOR each laundry in the machine
+    IF laundry NOT EQUAL to maxLaundry THEN
+        DISPLAY "Washing machine not working"
+        INCREMENT laundry by 1
+    ELSE
+        DISPLAY "Washing machine working"
+    ENDIF
+ENDFOR
+
+4. Periksa Kuku
+SET student value to 1
+SET maxStudent value to 40
+SET kukuStudent without any value
+FOR each student in the class
+    IF student LESS EQUAL THAN maxStudent THEN
+        IF kukuStudent EQUAL TO long THEN
+            DISPLAY "Student Punishment"
+        ELSE
+            DISPLAY "Student Praised"
+        ENDIF
+        INCREMENT student by 1
+    ELSE
+        DISPLAY "All student has been checked"
+    ENDIF
+ENDFOR
