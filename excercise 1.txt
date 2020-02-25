@@ -22,6 +22,7 @@ ENDIF
 SET laundry value to 0
 SET maxLaundry value to 20
 FOR each laundry in the machine
+FOR laundry = 1 to 20
     IF laundry NOT EQUAL to maxLaundry THEN
         DISPLAY "Washing machine not working"
         INCREMENT laundry by 1
@@ -34,7 +35,8 @@ ENDFOR
 SET student value to 1
 SET maxStudent value to 40
 SET kukuStudent without any value
-FOR each student in the class
+FOR each student in the class 
+FOR student = 1 to 40
     IF student LESS EQUAL THAN maxStudent THEN
         IF kukuStudent EQUAL TO long THEN
             DISPLAY "Student Punishment"
