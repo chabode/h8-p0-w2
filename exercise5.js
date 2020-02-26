@@ -8,7 +8,7 @@ var fifth = 'I'
 var sixth = 'love'
 var seventh = 'it!'
 
-// console.log(`${word} ${second} ${third} ${fourth} ${fifth} ${sixth} ${seventh}`)
+ console.log(`${word} ${second} ${third} ${fourth} ${fifth} ${sixth} ${seventh}`)
 
 // 2. Index Accessing 1 by 1
 
@@ -19,11 +19,11 @@ var thirdWord2 = word2[15] + word2[16] // do your own!
 var fourthWord2 = word2[18] + word2[19] // do your own!
 var fifthWord2 =  word2[21] + word2[22] + word2[23] + word2[24] // do your own!
 
-// console.log('First Word: ' + exampleFirstWord2)
-// console.log('Second Word: ' + secondWord2)
-// console.log('Third Word: ' + thirdWord2)
-// console.log('Fourth Word: ' + fourthWord2)
-// console.log('Fifth Word: ' + fifthWord2)
+ console.log('First Word: ' + exampleFirstWord2)
+ console.log('Second Word: ' + secondWord2)
+ console.log('Third Word: ' + thirdWord2)
+ console.log('Fourth Word: ' + fourthWord2)
+ console.log('Fifth Word: ' + fifthWord2)
 
 // 3. Breaking Sentences Again using Substring
 
@@ -34,11 +34,11 @@ var thirdWord3 = word3.substring(15,17) // do your own!
 var fourthWord3 = word3.substring(18,20) // do your own!
 var fifthWord3 = word3.substring(21,25) // do your own!
 
-// console.log('First Word: ' + exampleFirstWord3)
-// console.log('Second Word: ' + secondWord3)
-// console.log('Third Word: ' + thirdWord3)
-// console.log('Fourth Word: ' + fourthWord3)
-// console.log('Fifth Word: ' + fifthWord3)
+ console.log('First Word: ' + exampleFirstWord3)
+ console.log('Second Word: ' + secondWord3)
+ console.log('Third Word: ' + thirdWord3)
+ console.log('Fourth Word: ' + fourthWord3)
+ console.log('Fifth Word: ' + fifthWord3)
 
 // 4. Breaking Sentences and Count Each Length
 
